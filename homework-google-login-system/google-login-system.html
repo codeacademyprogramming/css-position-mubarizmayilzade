@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marz's homework</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #main-sec {
+            width: 46%;
+            height: 964px;
+            margin-left: 27%;
+            margin-right: 27%;
+            background-color: white;
+        }
+
+        #main-div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 30%;
+            height: 70%;
+            transform: translate(-50%, -50%);
+            border: solid black 1px;
+            /* border-style: solid;
+            border-width: 2px;
+            border-color: black; */
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        #icon-google {
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            font-size: 27px;
+        }
+
+        #g1 {
+            color: blue;
+        }
+
+        #o1 {
+            color: red;
+        }
+
+        #o2 {
+            color: yellow;
+        }
+
+        #g2 {
+            color: blue;
+        }
+
+        #l {
+            color: green;
+        }
+
+        #e {
+            color: red;
+        }
+
+        #girish {
+            text-align: center;
+            font-size: 25px;
+            margin-bottom: 13px;
+        }
+
+        #text1 {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        #input-data {
+            text-align: center;
+            margin-top: 50px;
+            background-color: white;
+            height: 80px;
+        }
+
+        #input {
+            position: absolute;
+            left: 62px;
+            border: 1px gray solid;
+            border-radius: 5px;
+            padding: 23px;
+            padding-bottom: 14px;
+            padding-right: 250px;
+            background-color: white;
+
+        }
+
+        #input-fieldset {
+            position: absolute;
+            z-index: -2;
+            left: 60px;
+            top: 202px;
+            width: 449px;
+            background-color: white;
+        }
+
+        fieldset {
+            position: relative;
+            z-index: 999;
+            color: blue;
+            border: 1px solid blue;
+            box-shadow: 0px 0px 15px blue;
+        }
+
+        legend {
+            background-color: white;
+
+        }
+
+        input:focus #input-fieldset {
+            z-index: 999;
+        }
+
+        p {
+            line-height: 25px;
+        }
+        #button{
+            
+            padding: 11px 22px;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section id="main-sec">
+            <div id="main-div">
+                <div id="icon-google">
+                    <img style="width: 100px;"
+                        src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+                        alt="icon-google">
+                </div>
+                <div id="girish">
+                    <h4 style="margin: 0px;">Giriş</h4>
+                </div>
+                <div id="text1">
+                    <h5 style="margin: 0px;">Google Hesabınızı istifadə edin</h5>
+                </div>
+                <div id="input-data">
+                    <div id="input-fieldset">
+                        <fieldset>
+                            <legend>
+                                E-poçt və ya telefon
+                            </legend>
+                            <div style="padding: 18px;">
+
+                            </div>
+                        </fieldset>
+                    </div>
+                    <label for="input"></label>
+                    <input type="text" title="pls enter your number or email." alt="login" id="input" name="data"
+                        placeholder="E-poçt və ya telefon"> <br><br><br><br><br>
+                </div>
+                <div style=" text-align: left; padding-left: 60px;">
+                    <a href="#" style="color: blue; text-decoration: none;"><b>E-poçtunuzu unutdunuz?</b></a>
+                </div>
+                <div style="text-align: left; padding-left: 10%; padding-right: 10%; padding-top: 60px;">
+                    <p>
+                        Komputeriniz deyil? Şəxsi olaraq daxil olmaq üçün qonaq rejimindən istifadə edin. <b
+                            style="color: blue;">Ətraflı məlumat</b>
+                    </p>
+                </div>
+                <div style="margin-top: 90px;">
+                    <span style="text-align: left; padding-left: 10%;">
+                        <a style="text-decoration: none;" href="#"><b>Hesab yaradın</b></a>
+                    </span>
+                    <span style="padding-left: 45%;">
+                        <button id="button">Növbəti</button>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
